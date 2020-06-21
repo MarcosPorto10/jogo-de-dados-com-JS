@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="dado.css">
+    <script type="text/javascript" src="dado.js"></script>
+    <title>JOGO DE DADOS</title>
+
+</head>
+
+<body background="https://br.royalvegascasino.com/blogrvc/images/uploads/br_royalvegas_com/2019/06/BR-Pexels.jpg"
+    alt="Jogo de dados">
+
+    
+
+    <div id="jogo-dados">
+        <div id="jogo" hidden>
+            <img id="img1" src="dado_0.jpg" width="100px" height="100px" /> <p id="n1"></p>  <p>total:  <p id="j1"></p></p>
+            <img id="img2" src="dado_0.jpg" width="100px" height="100px" />  <p id="n2"></p> <p>total:  <p id="j2"></p></p>
+            <br><br>
+            <input type="button" onclick="sorteia()" id="botao" value="sorteio" />
+            <input type="button" onclick="reinicia()" id="botao1" value="reinicia" />
+            
+        
+        </div>
+
+        <br>
+        <div id="cadastro-nome">
+            <div id="cadastro">
+                NICK: <input type="text" name="nick" id="nickId" placeholder="JOGADOR 1" />
+                NICK :<input type="text" name="nick1" id="nick1Id" placeholder="JOGADOR 2" /><br><br>
+                <input type="button" onclick="ok()" value="ok" id="btnok">
+            </div>
+        </div>
+        
+</body>
+
+</html>
